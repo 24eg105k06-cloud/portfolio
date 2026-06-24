@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Vemula Vidhathri</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#2563eb,#7c3aed);
+    min-height:100vh;
+}
+
+.navbar{
+    background:rgba(0,0,0,0.4);
+    backdrop-filter:blur(10px);
+}
+
+.navbar-brand{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:20px;
+}
+
+.nav-link:hover,
+.nav-link.active{
+    color:#ffd700 !important;
+}
+
+.contact{
+    padding:120px 20px 60px;
+}
+
+.title{
+    text-align:center;
+    color:white;
+    margin-bottom:40px;
+}
+
+.title h1{
+    font-size:45px;
+    font-weight:bold;
+}
+
+.contact-box{
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+.form-control{
+    border-radius:10px;
+    padding:12px;
+    margin-bottom:20px;
+}
+
+textarea{
+    resize:none;
+}
+
+.btn-send{
+    background:#2563eb;
+    color:white;
+    padding:12px 30px;
+    border:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn-send:hover{
+    background:#0f172a;
+}
+
+.info-box{
+    background:white;
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 10px 25px rgba(0,0,0,.3);
+    height:100%;
+}
+
+.info-box h3{
+    color:#2563eb;
+    margin-bottom:20px;
+}
+
+.info-box p{
+    font-size:17px;
+    margin-bottom:18px;
+}
+
+.info-box i{
+    color:#2563eb;
+    margin-right:10px;
+}
+
+.social-icons{
+    margin-top:25px;
+}
+
+.social-icons a{
+    color:#2563eb;
+    font-size:28px;
+    margin-right:15px;
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    color:#0f172a;
+}
+
+.back-btn{
+    background:#ffd700;
+    color:black;
+    padding:12px 30px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.back-btn:hover{
+    background:white;
+    color:#2563eb;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+<div class="container">
+
+<a class="navbar-brand" href="index.html">Vidhathri</a>
+
+<button class="navbar-toggler" type="button"
+data-bs-toggle="collapse"
+data-bs-target="#menu">
+
+<span class="navbar-toggler-icon"></span>
+
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+<li class="nav-item"><a class="nav-link" href="skills.html">Skills</a></li>
+
+<li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+
+<li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+</div>
+
+</nav>
+
+<section class="contact">
+
+<div class="container">
+
+<div class="title">
+
+<h1>Contact Me</h1>
+
+<p>Let's connect and build something amazing together!</p>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-7">
+
+<div class="contact-box">
+
+<form>
+
+<input type="text" class="form-control" placeholder="Your Name" required>
+
+<input type="email" class="form-control" placeholder="Your Email" required>
+
+<input type="text" class="form-control" placeholder="Subject">
+
+<textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+
+<button type="submit" class="btn-send">
+<i class="bi bi-send-fill"></i> Send Message
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+<div class="col-lg-5">
+
+<div class="info-box">
+
+<h3>Get In Touch</h3>
+
+<p><i class="bi bi-person-fill"></i> <strong>Vemula Vidhathri</strong></p>
+
+<p><i class="bi bi-envelope-fill"></i> vee24481@gmail.com</p>
+
+<p><i class="bi bi-telephone-fill"></i> +91 9515788496</p>
+
+<p><i class="bi bi-geo-alt-fill"></i> Telangana, India</p>
+
+<p><i class="bi bi-mortarboard-fill"></i> B.Tech - Computer Science Engineering</p>
+
+<div class="social-icons">
+
+<a href="#"><i class="bi bi-github"></i></a>
+
+<a href="#"><i class="bi bi-linkedin"></i></a>
+
+<a href="#"><i class="bi bi-instagram"></i></a>
+
+<a href="#"><i class="bi bi-envelope-fill"></i></a>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="text-center mt-5">
+
+<a href="index.html" class="back-btn">
+<i class="bi bi-house-fill"></i> Back to Home
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 Vemula Vidhathri | Portfolio</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
